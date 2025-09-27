@@ -1,0 +1,52 @@
+<Transactions>
+  <Transaction>
+    <order_id>ORD-1001</order_id>
+    <order_ts>2025-09-26T10:15:30Z</order_ts>
+    <channel>STORE</channel>
+    <store>
+      <store_id>ST-001</store_id>
+      <name>Indira Nagar</name>
+      <city>Bengaluru</city>
+      <state>KA</state>
+      <country>IN</country>
+    </store>
+    <customer>
+      <customer_id>CUST-777</customer_id>
+      <first_name>Anita</first_name>
+      <last_name>Sharma</last_name>
+      <email>anita@example.com</email>
+      <loyalty_tier>Gold</loyalty_tier>
+    </customer>
+    <items>
+      <item>
+        <sku>SKU-001</sku>
+        <name>Organic Apples</name>
+        <qty>2</qty>
+        <unit_price>120.50</unit_price>
+        <discount>10.00</discount>
+        <tax>5.00</tax>
+      </item>
+      <item>
+        <sku>SKU-002</sku>
+        <name>Almond Milk</name>
+        <qty>1</qty>
+        <unit_price>200.00</unit_price>
+        <discount>0.00</discount>
+        <tax>10.00</tax>
+      </item>
+    </items>
+    <payments>
+      <payment>
+        <method>CARD</method>
+        <amount>446.00</amount>
+        <currency>INR</currency>
+      </payment>
+    </payments>
+    <totals>
+      <subtotal>441.00</subtotal>
+      <total_tax>15.00</total_tax>
+      <total_discount>10.00</total_discount>
+      <grand_total>446.00</grand_total>
+    </totals>
+  </Transaction>
+</Transactions>

@@ -1,0 +1,44 @@
+<Transactions>
+  <Transaction>
+    <order_id>ORD-1002</order_id>
+    <order_ts>2025-09-26T11:05:45Z</order_ts>
+    <channel>ONLINE</channel>
+    <store>
+      <store_id>WEB-INDIA</store_id>
+      <name>Web</name>
+      <city>Remote</city>
+      <state>NA</state>
+      <country>IN</country>
+    </store>
+    <customer>
+      <customer_id>CUST-888</customer_id>
+      <first_name>Rahul</first_name>
+      <last_name>Patil</last_name>
+      <email>rahul@example.com</email>
+      <loyalty_tier>Silver</loyalty_tier>
+    </customer>
+    <items>
+      <item>
+        <sku>SKU-003</sku>
+        <name>Whole Wheat Bread</name>
+        <qty>3</qty>
+        <unit_price>45.00</unit_price>
+        <discount>0.00</discount>
+        <tax>6.08</tax>
+      </item>
+    </items>
+    <payments>
+      <payment>
+        <method>UPI</method>
+        <amount>141.08</amount>
+        <currency>INR</currency>
+      </payment>
+    </payments>
+    <totals>
+      <subtotal>135.00</subtotal>
+      <total_tax>6.08</total_tax>
+      <total_discount>0.00</total_discount>
+      <grand_total>141.08</grand_total>
+    </totals>
+  </Transaction>
+</Transactions>

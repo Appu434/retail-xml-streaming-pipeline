@@ -1,0 +1,33 @@
+envs:
+  local:
+    raw_xml_path: "./data/raw/xml_drop"
+    checkpoint_base: "./lakehouse/checkpoints"
+    bronze_path: "./lakehouse/bronze/transactions"
+    silver_orders_path: "./lakehouse/silver/orders"
+    silver_line_items_path: "./lakehouse/silver/line_items"
+    silver_payments_path: "./lakehouse/silver/payments"
+    gold_daily_store_path: "./lakehouse/gold/daily_store_sales"
+    use_unity_catalog: false
+    uc_catalog: ""
+    uc_schema: ""
+  databricks:
+    # Replace these with your ADLS Gen2/ABFSS locations & UC identifiers
+    raw_xml_path: "abfss://raw@<storage-account>.dfs.core.windows.net/xml_drop"
+    checkpoint_base: "abfss://chk@<storage-account>.dfs.core.windows.net/checkpoints"
+    bronze_path: "dbfs:/mnt/bronze/transactions"
+    silver_orders_path: "dbfs:/mnt/silver/orders"
+    silver_line_items_path: "dbfs:/mnt/silver/line_items"
+    silver_payments_path: "dbfs:/mnt/silver/payments"
+    gold_daily_store_path: "dbfs:/mnt/gold/daily_store_sales"
+    use_unity_catalog: true
+    uc_catalog: "retail"
+    uc_schema: "core"
+
+settings:
+  autoloader:
+    format: "cloudFiles"
+    cloudFiles.format: "xml"
+    cloudFiles.schemaLocation: "<will-be-set-at-runtime>"
+    cloudFiles.maxFilesPerTrigger: "100"
+    # For XML specifics
+    rowTag: "Transaction"

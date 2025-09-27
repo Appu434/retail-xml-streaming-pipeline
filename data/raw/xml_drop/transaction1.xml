@@ -1,0 +1,25 @@
+<Transactions>
+  <Transaction>
+    <TransactionID>1001</TransactionID>
+    <StoreID>101</StoreID>
+    <Date>2025-09-27</Date>
+    <Order>
+      <OrderID>5001</OrderID>
+      <CustomerID>C001</CustomerID>
+      <LineItem>
+        <ProductID>P001</ProductID>
+        <Quantity>2</Quantity>
+        <Price>20.5</Price>
+      </LineItem>
+      <LineItem>
+        <ProductID>P002</ProductID>
+        <Quantity>1</Quantity>
+        <Price>10.0</Price>
+      </LineItem>
+      <Payment>
+        <PaymentType>Card</PaymentType>
+        <Amount>51.0</Amount>
+      </Payment>
+    </Order>
+  </Transaction>
+</Transactions>
