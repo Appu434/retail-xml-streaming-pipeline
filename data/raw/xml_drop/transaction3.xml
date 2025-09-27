@@ -1,25 +1,20 @@
 <Transactions>
   <Transaction>
-    <TransactionID>1001</TransactionID>
+    <TransactionID>1003</TransactionID>
     <StoreID>101</StoreID>
-    <TransactionDate>2025-09-27</TransactionDate>
-    <CustomerID>C001</CustomerID>
+    <TransactionDate>2025-09-28</TransactionDate>
+    <CustomerID>C003</CustomerID>
     <Items>
       <Item>
         <SKU>P001</SKU>
-        <Quantity>2</Quantity>
-        <Price>20.5</Price>
-      </Item>
-      <Item>
-        <SKU>P002</SKU>
         <Quantity>1</Quantity>
-        <Price>10.0</Price>
+        <Price>20.5</Price>
       </Item>
     </Items>
     <Payments>
       <Payment>
         <Method>Card</Method>
-        <Amount>51.0</Amount>
+        <Amount>20.5</Amount>
       </Payment>
     </Payments>
   </Transaction>

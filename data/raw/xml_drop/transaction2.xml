@@ -1,0 +1,21 @@
+<Transactions>
+  <Transaction>
+    <TransactionID>1002</TransactionID>
+    <StoreID>102</StoreID>
+    <TransactionDate>2025-09-27</TransactionDate>
+    <CustomerID>C002</CustomerID>
+    <Items>
+      <Item>
+        <SKU>P003</SKU>
+        <Quantity>3</Quantity>
+        <Price>15.0</Price>
+      </Item>
+    </Items>
+    <Payments>
+      <Payment>
+        <Method>Cash</Method>
+        <Amount>45.0</Amount>
+      </Payment>
+    </Payments>
+  </Transaction>
+</Transactions>
